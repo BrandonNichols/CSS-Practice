@@ -80,9 +80,9 @@ select {
 .slider-container {
   position: relative;
   /* top: 100px;
-  left: 41vw;
-  height: 300px;
-  width: 300px; */
+  left: 41vw; */
+  height: 500px;
+  width: 333px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
