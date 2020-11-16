@@ -78,14 +78,9 @@ select {
 }
 
 .slider-container {
-  /* position: relative;
-  top: 100px;
-  left: 41vw; */
-  height: 500px;
-  width: 100%;
   background-repeat: no-repeat;
-  /* background-position: bottom; */
-  background-size: 100% 300px;
+  background-position: top;
+  background-size: auto 500px;
 }
 
 .slider-container::after {
@@ -98,14 +93,18 @@ select {
   background-repeat: inherit;
   transform: scaleY(-1);
   background-position: bottom;
-  background-size: cover;
+  background-size: inherit;
 }
 
 .swiper-container {
   position: relative;
   top: 100px;
-  width: 600px;
-  height: 500px;
+  width: 50vw;
+  height: 900px;
+}
+
+.swiper-slide {
+  width: 10%;
 }
 
 .slide-one {
