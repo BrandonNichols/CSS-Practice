@@ -6,7 +6,7 @@ $(document).ready(function () {
     slidesPerView: "auto",
     coverflowEffect: {
       rotate: 50,
-      stretch: -100,
+      stretch: 0,
       depth: 100,
       modifier: 1,
       slideShadows: true
